@@ -9,23 +9,28 @@
 .hero {
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.hero-contaner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000050;
+}
 
-.hero-contain h2{
+.contain h2{
   color: #FFF;
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
 }
-.hero-contain h3{
+.contain h3{
   color: #FFF;
   text-align: center;
   font-family: Merriweather;
@@ -41,7 +46,7 @@
 .second-page {
   height: 100vh;
   width: 100%;
-  background-color: #FAF9F6;
+  background: linear-gradient(to right, #273650de, #ec4fb285);
 }
 .main-container {
   display: flex;
@@ -82,3 +87,75 @@
 }
 
 /* Second-page_contain styleing END */
+
+/* Thirt-page_contain styleing ST */
+
+.third-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.t-contain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #00000067;
+}
+
+.left-side {
+  height: 100%;
+  width: 60%;
+}
+.left-side h1{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 6px;
+  padding-left: 120px;
+  padding-top: 150px;
+}
+.left-side p{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 120px;
+  padding-bottom: 20px;
+}
+
+.pry-button {
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Arial;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 120px;
+  border: none;
+  background-color: #F00;
+  border-radius: 8px;
+}
+.pry-button:hover{
+  background-color: #eb0606;
+}
+.pry-button:active{
+  background-color: #be0505;
+}
+
+.right-side {
+  height: 100%;
+  width: 40%;
+}
+.right-side img{
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+/* Thirt-page_contain styleing END */
