@@ -5,6 +5,7 @@
 }
 
 /* Hero-Section styleing ST */
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -39,6 +40,7 @@
 }
 
 /* Hero-Section styleing END */
+
 
 
 /* Second-page_contain styleing ST */
@@ -89,6 +91,7 @@
 }
 
 /* Second-page_contain styleing END */
+
 
 
 /* Third-page_contain styleing ST */
@@ -165,6 +168,7 @@
 /* Third-page_contain styleing END */
 
 
+
 /* Fourth-page_contain styleing ST */
 
 .fourth-page {
@@ -181,7 +185,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.226) 0%, rgba(255, 0, 0, 0.020) 100%);
 }
 .address h2{
   text-align: center;
@@ -196,6 +200,7 @@
 }
 
 /* Fourth-page_contain styleing END */
+
 
 
 /* Fifth-page_contain styleing ST*/
@@ -257,6 +262,97 @@
 }
 
 /* Fifth-page_contain styleing END*/
+
+
+
+/* Sixth-page_cintain styleing ST */
+
+.sixth-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sixth-container {
+  height: 85%;
+  width: 78%;
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.097);
+}
+
+.email-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.email-icon li{
+  list-style: none;
+}
+
+.contain-text h2{
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+.contain-text p{
+  color: #07021199;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 20px 120px;
+}
+.contain-text input {
+  height: 45px;
+  width: 300px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  float: left;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.contain-text button {
+  height: 45px;
+  width: 130px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background-color: #F00;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.contain-text button:hover{
+  background-color: #eb0606;
+}
+.contain-text button:active{
+  background-color: #be0505;
+}
+.input-but {
+  margin-top: 30px;
+}
+
+.sixth-container .input-but{
+  display: flex;
+  justify-content: center;
+}
+
+/* Sixth-page_cintain styleing END */
+
 
 
 /* Footer_Contain styleing ST */
@@ -336,6 +432,5 @@
   font-size: 20px;
   font-weight: 500;
 }
-
 
 /* Footer_Contain styleing END */
