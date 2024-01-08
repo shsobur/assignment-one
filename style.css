@@ -40,6 +40,7 @@
 
 /* Hero-Section styleing END */
 
+
 /* Second-page_contain styleing ST */
 
 .second-page {
@@ -47,11 +48,13 @@
   width: 100%;
   background: linear-gradient(to right, #273650b3, #ec4fb262);
 }
+
 .main-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .s-contain {
   height: 60%;
   width: 50%;
@@ -87,6 +90,7 @@
 
 /* Second-page_contain styleing END */
 
+
 /* Third-page_contain styleing ST */
 
 .third-page {
@@ -97,6 +101,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .t-contain {
   height: 100%;
   width: 100%;
@@ -159,6 +164,7 @@
 
 /* Third-page_contain styleing END */
 
+
 /* Fourth-page_contain styleing ST */
 
 .fourth-page {
@@ -191,6 +197,7 @@
 
 /* Fourth-page_contain styleing END */
 
+
 /* Fifth-page_contain styleing ST*/
 
 #fifth-page {
@@ -205,6 +212,9 @@
 .container {
   height: auto;
   width: 80%;
+}
+.text-contain {
+  padding-left: 10px;
 }
 
 .text-contain h4{
@@ -246,9 +256,8 @@
   padding-left: 10px;
 }
 
-
-
 /* Fifth-page_contain styleing END*/
+
 
 /* Footer_Contain styleing ST */
 
