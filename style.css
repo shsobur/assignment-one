@@ -194,14 +194,57 @@
 /* Fifth-page_contain styleing ST*/
 
 #fifth-page {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  background-color: mediumvioletred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
 }
 
+.container {
+  height: auto;
+  width: 80%;
+}
 
+.text-contain h4{
+  color: #F00;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 40px;
+}
+.text-contain h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.text-contain p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 10px;
+}
 
+.row-1 {
+  margin-top: 40px;
+}
+.row-1 img{
+  height: 340px;
+  padding-left: 10px;
+}
 
+.row-2{
+  margin-top: 40px;
+}
+.row-2 img{
+  height: 340px;
+  padding-left: 10px;
+}
 
 
 
