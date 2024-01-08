@@ -106,7 +106,7 @@
   background-position: center;
 }
 
-.third-contain {
+.third-container {
   height: 100%;
   width: 100%;
   display: flex;
@@ -167,6 +167,118 @@
 }
 
 /* Third-page_contain styleing END */
+
+
+
+/* Reward-page styleing ST */
+
+#flex-game {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reward-container {
+  height: 80%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.box-1 {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+.box-one-text h3{
+  color: #F00;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.box-one-text h2{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 10px 0 10px 10px;
+}
+.box-one-text p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+.box-2 {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-img {
+  height: 380px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 15px solid #F00;
+}
+.bg-img img {
+  height: 300px;
+}
+.box-two-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-3 {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-3 h2 {
+  color: #F00;
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 0 20px 80px;
+}
+.box-3 p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 0 0 20px 80px;
+}
+
+.box-three-text img {
+  padding-left: 80px;
+}
+
+
+
+
+
+
+
+
+/* Reward-page styleing END */
 
 
 
