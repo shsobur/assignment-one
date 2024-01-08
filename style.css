@@ -6,7 +6,7 @@
 
 /* Hero-Section styleing ST */
 
-.hero {
+#hero {
   height: 100vh;
   width: 100%;
   background-image: url("resources/Banner\ Image.png");
@@ -29,6 +29,7 @@
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 .contain h3{
   color: #FFF;
@@ -45,13 +46,13 @@
 
 /* Second-page_contain styleing ST */
 
-.second-page {
+#second-page {
   height: 100vh;
   width: 100%;
   background: linear-gradient(to right, #273650b3, #ec4fb262);
 }
 
-.main-container {
+.second-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +97,7 @@
 
 /* Third-page_contain styleing ST */
 
-.third-page {
+#third-page {
   height: 100vh;
   width: 100%;
   background-image: url("resources/Vectorrr.png");
@@ -105,7 +106,7 @@
   background-position: center;
 }
 
-.t-contain {
+.third-contain {
   height: 100%;
   width: 100%;
   display: flex;
@@ -171,7 +172,7 @@
 
 /* Fourth-page_contain styleing ST */
 
-.fourth-page {
+#fourth-page {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -198,6 +199,10 @@
 .address span{
   color: #F00;
 }
+.address button {
+  margin-left: 200px;
+  margin-top: 40px;
+}
 
 /* Fourth-page_contain styleing END */
 
@@ -214,29 +219,29 @@
   background-color: rgb(243, 243, 243);
 }
 
-.container {
+.fifth-container {
   height: auto;
   width: 80%;
 }
-.text-contain {
+.text-contain-one {
   padding-left: 10px;
 }
 
-.text-contain h4{
+.text-contain-one h4{
   color: #F00;
   font-family: Arial;
   font-size: 18px;
   font-weight: 600;
   padding-top: 40px;
 }
-.text-contain h2{
+.text-contain-one h2{
   color: #070211;
   font-family: Merriweather;
   font-size: 35px;
   font-weight: 900;
   text-transform: capitalize;
 }
-.text-contain p{
+.text-contain-one p{
   color: rgba(7, 2, 17, 0.60);
   font-family: Inter;
   font-size: 16px;
@@ -267,7 +272,7 @@
 
 /* Sixth-page_cintain styleing ST */
 
-.sixth-page {
+#sixth-page {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -291,7 +296,7 @@
   list-style: none;
 }
 
-.contain-text h2{
+.text-contain-two h2{
   color: #070211;
   text-align: center;
   font-family: Merriweather;
@@ -301,7 +306,7 @@
   padding-top: 10px;
 }
 
-.contain-text p{
+.text-contain-two p{
   color: #07021199;
   text-align: center;
   font-family: Inter;
@@ -310,7 +315,7 @@
   line-height: 32px;
   padding: 20px 120px;
 }
-.contain-text input {
+.text-contain-two input {
   height: 45px;
   width: 300px;
   padding: 0 20px;
@@ -320,14 +325,14 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-.contain-text button {
+.text-contain-two button {
   height: 45px;
   width: 130px;
   color: #FFF;
   text-align: center;
-  font-family: Inter;
+  font-family: Arial;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   padding: 0 20px;
   border: none;
@@ -336,10 +341,10 @@
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-.contain-text button:hover{
+.text-contain-two button:hover{
   background-color: #eb0606;
 }
-.contain-text button:active{
+.text-contain-two button:active{
   background-color: #be0505;
 }
 .input-but {
